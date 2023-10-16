@@ -1,0 +1,75 @@
+/* 1# TITLE WITH BACKGROUND */
+
+main {
+  background: #000; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.mainTitle {
+  width: 100%; 
+  color: transparent; 
+  text-align: center; 
+  text-transform: uppercase;
+  background-image: url('../img/crb-3-nr.jpg');
+	background-size: cover;
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  /*background-position-y: 700px; */
+  background-clip: text;
+	-webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+/* #2 TITLE - SUBTITLE - TEXTITEM1 */
+
+.mainTitle, .subtitle, .textItem1 { 
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  order: 0;
+}
+
+.mainTitle {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 8rem;
+  font-weight: bold;
+  color: #7895b6;
+  
+}
+  
+.subtitle {
+  font-size: 2rem;
+  color: #999;
+}
+  
+.textItem1 {
+  font-size: 1rem;
+  color: #999;
+}
+
+.hidden-title {
+  opacity: 0;
+  animation: showText 4s ease-in-out forwards;
+}
+  
+.hidden-text {
+  opacity: 0;
+  animation: showText 8s ease-in-out forwards;
+}
+  
+@keyframes showText {
+  0% {
+  opacity: 0;
+  }
+  100% {
+  opacity: 1;
+  }
+}

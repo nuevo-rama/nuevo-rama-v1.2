@@ -1,13 +1,15 @@
 {
     "heading": "¡Hello!",
-    "content": "¡Welcome to y web page!",
+    "content": "¡Welcome to my web page!",
     "menuItem1": "About me",
     "menuItem2": "Projects",
     "menuItem3": "Contact",
     "title": "SOFTWARE DEV",
     "subtitle": "Ramiro E. Melero. I transform ideas into digital experiences",
     "textItem1": "Explore new digital frontiers: Exceptional app and web projects",
-    "categoryTitle": "About me",
+    "sectionItem1": "About me",
+    "sectionItem2": "Projects",
+    "sectionItem3": "Contact",
     "textItem2": {
       "step1": "I am a multidisciplinary developer, focused on creating solutions for the digital world.",
       "step2": "My profile is both creative and technical with a clear goal: to transform ideas into innovative digital solutions.",

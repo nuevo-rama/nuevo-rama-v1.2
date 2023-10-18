@@ -28,6 +28,10 @@ function loadContent(language) {
       document.getElementById("subtitle").innerHTML = data.subtitle;
       document.getElementById("textItem1").innerHTML = data.textItem1;
 
+      document.getElementById("sectionItem1").innerHTML = data.sectionItem1;
+      document.getElementById("sectionItem2").innerHTML = data.sectionItem2;
+      document.getElementById("sectionItem3").innerHTML = data.sectionItem3;
+
       document.getElementById("step1").innerHTML = data.textItem2.step1;
       document.getElementById("step2").innerHTML = data.textItem2.step2;
       document.getElementById("step3").innerHTML = data.textItem2.step3;

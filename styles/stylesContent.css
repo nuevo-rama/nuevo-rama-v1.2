@@ -6,8 +6,10 @@
 .sectionItem {
     color: white;
     display: block;
-    border: 1px red solid;
-    height: 300px;
+    border: 1px rgb(49, 49, 49) solid;
+    height: auto;
+    margin: 2rem;
+    padding: 2rem;
 }
 
     

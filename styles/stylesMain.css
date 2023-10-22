@@ -23,6 +23,11 @@ main {
   background-clip: text;
 	-webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 8rem;
+  font-weight: bold;
+  
 }
 
 /* #2 TITLE - SUBTITLE - TEXTITEM1 */
@@ -36,23 +41,14 @@ main {
   order: 0;
 }
 
-.mainTitle {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
-  font-size: 8rem;
-  font-weight: bold;
-  color: #7895b6;
-  
-}
-  
 .subtitle {
   font-size: 2rem;
-  color: #999;
+  color: #AAA6AC;
 }
   
 .textItem1 {
   font-size: 1rem;
-  color: #999;
+  color: #837569;
 }
 
 .hidden-title {

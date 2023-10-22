@@ -1,17 +1,20 @@
 .sectionCard {
-    color: white;
+    color: #B7B6C2;
     display: block;
 }
 
 .sectionItem {
     color: white;
     display: block;
-    border: 1px rgb(49, 49, 49) solid;
+    border: 1px #837569 solid;
     height: auto;
     margin: 2rem;
     padding: 2rem;
 }
 
-    
+#sectionItem1, #sectionItem2, #sectionItem3 {
+    font-size: 2rem;
+    color: #837569
+}  
 
 

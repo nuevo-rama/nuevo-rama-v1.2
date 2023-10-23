@@ -1,6 +1,4 @@
 {
-    "heading": "¡Hello!",
-    "content": "¡Welcome to my web page!",
     "menuItem1": "About me",
     "menuItem2": "Projects",
     "menuItem3": "Contact",
@@ -18,5 +16,17 @@
     "step6": "Each project is unique, I dedicate all my resources to stand out in a competitive market.",
     "step7": "I want the projects I work on to grow and endure, that's why I develop robust and scalable systems.",
     "step8": "Agile methodologies help me establish communication and progress in all my projects from the outset.",
-    "footer": ""
+    "cardTitle1": "Blog Project",
+    "cardContent1": "Content",
+    "cardTitle2": "FastAPI Project",
+    "cardContent2": "Content",
+    "cardTitle3": "Python API Rest",
+    "cardContent3": "Content",
+    "cardTitle4": "Flask Project",
+    "cardContent4": "Content",
+    "cardTitle5": "Django Project",
+    "cardContent5": "Content",
+    "cardTitle6": "React Project",
+    "cardContent6": "Content",
+    "footer": "Buenos Aires City, Argentina"
   }

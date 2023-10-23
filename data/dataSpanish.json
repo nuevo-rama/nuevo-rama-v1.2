@@ -1,6 +1,4 @@
 {
-  "heading": "¡Hola!",
-  "content": "¡Bienvenido a mi página web!",
   "menuItem1": "Sobre mi",
   "menuItem2": "Proyectos",
   "menuItem3": "Contacto",
@@ -18,5 +16,17 @@
   "step6": "Cada proyecto es único, dedico todos mis recursos para lograr destacar en un mercado competitivo.",
   "step7": "Quiero que los proyectos en los que trabajo crezcan y perduren, por eso desarrollo sistemas sólidos y escalables.",
   "step8": "Las metodologías ágiles me ayudan a establecer comunicación y progreso en todos mis proyectos desde el inicio.",
-  "footer": ""
+  "cardTitle1": "Blog Project",
+  "cardContent1": "Content",
+  "cardTitle2": "FastAPI Project",
+  "cardContent2": "Content",
+  "cardTitle3": "Python API Rest",
+  "cardContent3": "Content",
+  "cardTitle4": "Flask Project",
+  "cardContent4": "Content",
+  "cardTitle5": "Django Project",
+  "cardContent5": "Content",
+  "cardTitle6": "React Project",
+  "cardContent6": "Content",
+  "footer": "Ciudad Autónoma de Buenos Aires, Argentina"
 }

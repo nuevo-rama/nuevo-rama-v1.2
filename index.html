@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/stylesBody.css">
+    <link rel="stylesheet" href="./styles/stylesHeader.css">
+    <link rel="stylesheet" href="./styles/stylesMain.css">
+    <link rel="stylesheet" href="./styles/stylesContent.css">
+    <link rel="stylesheet" href="./styles/stylesCards.css">
+    <link rel="stylesheet" href="./styles/stylesFooter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42d391c3ad.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="../img/logo-rm-favicon.png" alt="Logo">
+    </div>
+    <nav class="menu">
+      <ul class="menu-list">
+        <a href="#page-1"><button><li class="menu-item"><span id="menuItem1"></span></li></button></a>
+        <a href="#page-2"><button><li class="menu-item"><span id="menuItem2"></span></li></button></a>
+        <a href="#page-3"><button><li class="menu-item"><span id="menuItem3"></span></li></button></a>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ramiro-melero/" target="_blank" class="social-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="toggle-language">
+      <input type="checkbox" id="toggle" class="toggle-input">
+        <label for="toggle" class="toggle-label">
+          <span class="toggle-text">English</span>
+        </label>
+    </div>
+  </header>
+    
+  <main>
+    <div class="mainTitle">
+      <span class="mainTitle" id="title"></span>
+    </div>
+      <div class="subtitle">
+        <span class="hidden-text" id="subtitle"></span>
+      </div>
+    <div class="textItem1">
+      <span class="hidden-text" id="textItem1"></span>
+    </div>
+  </main>
+    <div class="sectionItem" id="page-1">
+      <span class="hidden-text" id="sectionItem1"></span>
+
+      <div class="sectionCard">
+        <span class="hidden-text" id="step1"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step2"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step3"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step4"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step5"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step6"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step7"></span>
+      </div>
+      <div class="sectionCard">
+        <span class="hidden-text" id="step8"></span>
+      </div>
+    </div>
+    <div class="sectionItem" id="page-2">
+        <span class="hidden-text" id="sectionItem2"></span>
+        <div class="container">
+          <div class="card">
+            <span class="hidden-text" id="cardTitle1"></span><br><br>
+            <span class="hidden-text" id="cardContent1"></span>
+          </div>
+          <div class="card">
+            <span class="hidden-text" id="cardTitle2"></span><br><br>
+            <span class="hidden-text" id="cardContent2"></span>
+          </div>
+          <div class="card">
+            <span class="hidden-text" id="cardTitle3"></span><br><br>
+            <span class="hidden-text" id="cardContent3"></span>
+          </div>
+          <div class="card">
+            <span class="hidden-text" id="cardTitle4"></span><br><br>
+            <span class="hidden-text" id="cardContent4"></span>
+          </div>
+          <div class="card">
+            <span class="hidden-text" id="cardTitle5"></span><br><br>
+            <span class="hidden-text" id="cardContent5"></span>
+          </div>
+          <div class="card">
+            <span class="hidden-text" id="cardTitle6"></span><br><br>
+            <span class="hidden-text" id="cardContent6"></span>
+          </div> 
+        </div>
+    </div>
+    <div class="sectionItem" id="page-3">
+      <span class="hidden-text" id="sectionItem3"></span>
+    </div>   
+  <footer>
+    <div class="footer" >
+      <span class="hidden-text" id="year"></span>
+      <span class="hidden-text" id="footer"></span>
+    </div>
+  </footer>
+  
+  <script src="./js/toggleLanguage.js"></script>
+  <script src="./js/showElementScroll.js"></script>
+  <script src="./js/dateTime.js"></script>
+
+  
+    
+</body>
+</html>
